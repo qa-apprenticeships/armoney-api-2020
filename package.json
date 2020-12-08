@@ -10,7 +10,7 @@
     "@awaitjs/express": "^0.6.3",
     "debug": "^4.3.1",
     "express": "^4.17.1",
-    "express-validator": "^6.7.0",
+    "express-validator": "^6.7.0", 
     "helmet": "^4.2.0",
     "jsonwebtoken": "^8.5.1",
     "knex": "^0.21.12",
