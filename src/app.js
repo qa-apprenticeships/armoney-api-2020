@@ -21,6 +21,6 @@ module.exports = function() {
   app.get('/hi', (req, res) => {
     res.status(200).send('Hi there Mark, you are using [feature-1]!');
   });
-  //Hey there! - DMarsh02
+  //Hey there from Git Bash! - DMarsh02
   return app;
 };
