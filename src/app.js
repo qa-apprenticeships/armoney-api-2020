@@ -19,7 +19,7 @@ module.exports = function() {
 
   /* istanbul ignore next */
   app.get('/hi', (req, res) => {
-    res.status(200).send('Hi there Mark, you are using [feature-1]!');
+    res.status(200).send('Hi there Daniel!');
   });
   // Hey there from Git Bash! - DMarsh02
   return app;
