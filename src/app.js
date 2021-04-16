@@ -19,7 +19,7 @@ module.exports = function() {
   /* istanbul ignore next */
   /* ignore next */
   app.get('/hi', (req, res) => {
-    res.status(200).send('trying that pull request aye?');
+    res.status(200).send('trying that pull request aye!');
   });
 
   return app;
