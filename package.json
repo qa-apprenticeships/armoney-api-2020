@@ -1,7 +1,7 @@
 {
   "name": "secure-api",
   "version": "1.0.0",
-  "description": "my secure app",
+  "description": "",
   "main": "index.js",
   "directories": {
     "test": "test"
