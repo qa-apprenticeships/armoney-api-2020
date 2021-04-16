@@ -16,7 +16,6 @@ module.exports = function() {
   app.use(register);
   app.use(signin);
   app.use(getProfile);
-  /* Just adding a comment here
   /* istanbul ignore next */
   app.get('/hi', (req, res) => {
     res.status(200).send('Hi there!');
