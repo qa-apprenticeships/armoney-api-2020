@@ -26,7 +26,7 @@ describe('auth/register', function() {
   const invalidRegistrations = [
     {registration: {email: '', password: 'abc123'}, reason: 'missing email'},
     {registration: {email: 'fred@acme.com', password: ''}, reason: 'missing password'},
-    {registration: {email: 'fred', password: 'abc123'}, reason: 'invalid email format'}
+    {registration: {email: 'fredrick', password: 'abc123'}, reason: 'invalid email format'}
   ];
   invalidRegistrations.forEach((invalidRegistration) => {
     it(`rejects invalid regsitration - ${invalidRegistration.reason}`, async function() {
